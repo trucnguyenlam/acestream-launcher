@@ -2,7 +2,10 @@
 Acestream Launcher allows you to open Acestream links with a Media Player of your choice
 
 ## Dependencies
-    python, python-psutil, python-pexpect, python-notify2, acestream-engine
+    python python-psutil python-pexpect python-notify2 python-apsw python-m2crypto
+
+## AceStream Engine
+    Download from [Engine](http://dl.acestream.org/linux/acestream_3.1.16_ubuntu_16.04_x86_64.tar.gz)
 
 ## Usage
     acestream-launcher URL [--player PLAYER] [--engine ENGINE]
