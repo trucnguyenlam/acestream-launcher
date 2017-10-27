@@ -1,4 +1,4 @@
-#! /bin/sh
+#! /bin/bash
 
 pkgname=acestream-launcher
 pkgfile=acestream_launcher
@@ -15,7 +15,7 @@ install() {
   mv "/opt/$pkgname/$pkgname.desktop" "/usr/share/applications/$pkgname.desktop"
 }
 
-if [ "$EUID" -ne 0 ]
-  then echo "Please run as root"
+if [[ "$EUID" -ne 0 ]]; then
+  echo "Please run as root"
   else install
 fi
